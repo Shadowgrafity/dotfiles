@@ -4,3 +4,4 @@ Basic Neovim Dotfiles for my programming
    -  C#
    -  JS
    -  C++
+   -  Python
