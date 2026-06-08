@@ -15,14 +15,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- basic config preferences
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
-vim.cmd("set number")
-vim.cmd("set cursorline")
-vim.g.mapleader = " "
 
 -- Setup lazy.nvim - looks for all plugin scripts ending with *.lua in plugins folder
 require("lazy").setup("plugins")
